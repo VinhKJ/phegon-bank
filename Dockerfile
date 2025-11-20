@@ -4,7 +4,7 @@ FROM eclipse-temurin:21-jdk-jammy AS builder
 # Set the working directory inside the container
 WORKDIR /app
 
-# Install the Apache Maven build tool
+# Install the Apache Maven build tool oke fine
 # Update package lists and install Maven without recommended packages to keep the layer small
 RUN apt-get update && apt-get install -y --no-install-recommends maven && rm -rf /var/lib/apt/lists/*
 
