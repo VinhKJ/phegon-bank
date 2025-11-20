@@ -16,7 +16,7 @@ public class PhegonbankApplication {
         SpringApplication.run(PhegonbankApplication.class, args);
     }
 
-//    @Bean
+//    @Bean nana
 //    CommandLineRunner runner(){
 //        return args -> {
 //            NotificationDTO notificationDTO = NotificationDTO.builder()
