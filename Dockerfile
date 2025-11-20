@@ -34,7 +34,7 @@ WORKDIR /app
 COPY --from=builder /app/target/*.jar app.jar
 
 
-EXPOSE 8090
+EXPOSE 8089
 
 
 # Define the command to run the application when the container starts
